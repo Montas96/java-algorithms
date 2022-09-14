@@ -1,4 +1,4 @@
-package sortAlgorithm.quicksort;
+package sortAlgorithm;
 
 import java.util.Random;
 
