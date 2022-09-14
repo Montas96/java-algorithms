@@ -1,7 +1,9 @@
-package insertionsort;
+package sortAlgorithm.insertionsort;
 
 import java.util.Arrays;
-import java.util.Random;
+
+import static sortAlgorithm.AlgorithmUtils.initializeArray;
+import static sortAlgorithm.AlgorithmUtils.printArray;
 
 public class InsertionSort {
 
@@ -9,7 +11,6 @@ public class InsertionSort {
         int[] array = new int[10];
         initializeArray(array);
         int[] checkSortedArray = Arrays.copyOf(array, array.length);
-
         printArray(array);
         sortArray(array);
         System.out.println("Array after ... ");
@@ -30,22 +31,6 @@ public class InsertionSort {
             }
             array[j + 1] = pivot;
         }
-    }
-
-    private static void initializeArray(int[] array) {
-        Random random = new Random();
-        System.out.println("Array before ... ");
-        for (int i = 0; i < array.length; ++i) {
-            array[i] = random.nextInt(100);
-        }
-
-    }
-
-    private static void printArray(int[] array) {
-        for (int i = 0; i < array.length; ++i) {
-            System.out.print(" " + array[i] + " ");
-        }
-        System.out.println();
     }
 
 
