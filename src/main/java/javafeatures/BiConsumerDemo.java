@@ -1,5 +1,6 @@
 package javafeatures;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -39,18 +40,27 @@ class Product {
 
     String code;
 
+    List<String> categories = new ArrayList<>();
+
     public Product(String name, String code, float price, float rate) {
         this.name = name;
         this.price = price;
         this.rate = rate;
         this.code = code;
     }
+    public Product(String name, String code, float price, float rate, List<String> categories) {
+        this.name = name;
+        this.price = price;
+        this.rate = rate;
+        this.code = code;
+        this.categories = categories;
+    }
 
     public static List<Product> getProducts() {
         return new ArrayList<>(Arrays.asList(
-                new Product("PRODUCT1", "1111", 12.5f, 2.9f),
-                new Product("PRODUCT2", "2222", 27.5f, 4.1f),
-                new Product("PRODUCT3", "3333", 551, 3.1f)
+                new Product("PRODUCT1", "1111", 12.5f, 2.9f, Arrays.asList("AAA", "BBBB", "ccc")),
+                new Product("PRODUCT2", "2222", 27.5f, 4.1f, Arrays.asList("ccc", "DDDD", "aaa")),
+                new Product("PRODUCT3", "3333", 551, 3.1f, Arrays.asList("EEE", "FFFF", "dddd"))
         ));
     }
 
