@@ -1,8 +1,9 @@
+package codingame;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class TestClass {
-
+public class SortMap {
     public static void main(String[] args) {
         Map<String, Integer> products = new HashMap<>();
         products.put("A", 21);
