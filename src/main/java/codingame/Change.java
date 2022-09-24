@@ -1,3 +1,5 @@
+package codingame;
+
 public class Change {
 
     static long coin2 = 0;
