@@ -6,8 +6,16 @@
 
     <groupId>org.umbrella</groupId>
     <artifactId>java-algorithm</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>tdd-by-example</name>
+    <modules>
+        <module>sortAlgorithm</module>
+        <module>projectUtils</module>
+        <module>codingame</module>
+        <module>leetcode</module>
+        <module>javaFeatures</module>
+    </modules>
+    <name>java-portfolio</name>
     <description>Test Driven Development By Example</description>
 
     <organization>
