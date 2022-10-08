@@ -7,6 +7,23 @@
     <groupId>org.umbrella</groupId>
     <artifactId>java-algorithm</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>tdd-by-example</name>
+    <description>Test Driven Development By Example</description>
+
+    <organization>
+        <name>Umbrella </name>
+        <url>https://ubrella.io</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>MMB</id>
+            <name>Montassar Bouhjila</name>
+            <email>bouhjila.montassar@gmail.com</email>
+        </developer>
+    </developers>
+
+    <inceptionYear>2022</inceptionYear>
     <build>
         <plugins>
             <plugin>
