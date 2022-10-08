@@ -1,4 +1,4 @@
-package javafeatures.structures;
+package javafeatures.datastructures;
 
 import java.util.Arrays;
 import java.util.LinkedList;
