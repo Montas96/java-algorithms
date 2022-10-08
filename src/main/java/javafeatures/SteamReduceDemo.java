@@ -36,8 +36,25 @@ class Developer {
     static List<Developer> developers = Arrays.asList(
         new Developer("John", 3),
         new Developer("Mark", 2),
-        new Developer("Montassar",4)
+        new Developer("Montassar",4),
+        new Developer("Zorie",2)
     );
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getYearOfExperience() {
+        return yearOfExperience;
+    }
+
+    public void setYearOfExperience(int yearOfExperience) {
+        this.yearOfExperience = yearOfExperience;
+    }
 
     @Override
     public String toString() {
