@@ -22,8 +22,6 @@ public class StreamsDemo {
                 .distinct()
                 .collect(Collectors.toList());
         System.out.println(getAllProductCategories);
-
-
         boolean allMatch = Product.getProducts().stream().allMatch(product -> product.rate < 3);
         System.out.println(allMatch);
 

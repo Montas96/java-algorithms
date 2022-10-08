@@ -7,7 +7,5 @@ public class SupplierDemo {
     public static void main(String[] args) {
         Supplier<Integer> randomInteger = ()-> new Random().nextInt(10);
         System.out.println(randomInteger.get());
-
-
     }
 }
