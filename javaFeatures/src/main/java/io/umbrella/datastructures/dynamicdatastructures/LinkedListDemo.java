@@ -1,4 +1,4 @@
-package io.umbrella.datastructures;
+package io.umbrella.datastructures.dynamicdatastructures;
 
 import java.util.Arrays;
 import java.util.LinkedList;
