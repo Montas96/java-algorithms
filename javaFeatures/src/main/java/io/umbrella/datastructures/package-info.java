@@ -10,3 +10,8 @@ package io.umbrella.datastructures;
  * Non-linear data structure: Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only.
  *      Examples of non-linear data structures are trees and graphs.
  */
+
+/**
+ * Resources:
+ * https://www.javatpoint.com/collections-in-java
+ */
