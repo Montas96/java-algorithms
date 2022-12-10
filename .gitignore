@@ -1,2 +1,7 @@
 /target/
 /.idea/
+/codingame/target/
+/javaFeatures/target/
+/leetcode/target/
+/projectUtils/target/
+/sortAlgorithm/target/
