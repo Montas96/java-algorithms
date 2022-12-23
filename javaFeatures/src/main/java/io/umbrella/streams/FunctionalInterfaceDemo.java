@@ -1,4 +1,4 @@
-package io.umbrella;
+package io.umbrella.streams;
 
 @FunctionalInterface
 interface MyFunctionalInterface {

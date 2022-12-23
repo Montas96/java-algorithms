@@ -1,4 +1,4 @@
-package io.umbrella;
+package io.umbrella.streams;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
