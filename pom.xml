@@ -14,6 +14,7 @@
         <module>codingame</module>
         <module>leetcode</module>
         <module>javaFeatures</module>
+        <module>algorithms</module>
     </modules>
     <name>java-portfolio</name>
     <description>Test Driven Development By Example</description>
