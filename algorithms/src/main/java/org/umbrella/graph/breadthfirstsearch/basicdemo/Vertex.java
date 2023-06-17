@@ -7,7 +7,7 @@ public class Vertex {
 
     private String name;
     private boolean visited;
-    private List<Vertex> adjacentVertexes = new ArrayList<>();
+    private final List<Vertex> adjacentVertices = new ArrayList<>();
 
     public Vertex(String name) {
         this.name = name;
@@ -29,18 +29,16 @@ public class Vertex {
         this.visited = visited;
     }
 
-    public List<Vertex> getAdjacentVertexes() {
-        return adjacentVertexes;
+    public List<Vertex> getAdjacentVertices() {
+        return adjacentVertices;
     }
 
     public void addNeighbour(Vertex adjacentVertex) {
-        this.adjacentVertexes.add(adjacentVertex);
+        this.adjacentVertices.add(adjacentVertex);
     }
 
     @Override
     public String toString() {
-        return "Vertex{" +
-                "name='" + name + '\'' +
-                '}';
+        return "Vertex{" + "name='" + name + '\'' + '}';
     }
 }
